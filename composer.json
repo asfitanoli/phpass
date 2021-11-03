@@ -1,0 +1,37 @@
+{
+  "name": "asfitanoli/phpass",
+  "type": "library",
+  "time": "2021-10-03",
+  "license": "Public Domain",
+  "description": "Portable PHP password hashing framework",
+  "keywords": [
+    "Blowfish",
+    "crypt",
+    "password",
+    "security"
+  ],
+  "homepage": "http://github.com/hautelook/phpass/",
+  "authors": [
+    {
+      "name": "Solar Designer",
+      "email": "solar@openwall.com",
+      "homepage": "http://openwall.com/phpass/"
+    },
+    {
+      "name": "Asfandyar Khan",
+      "email": "aasfandyark90@gmail.com",
+      "homepage": "#"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "autoload": {
+    "psr-0": {
+      "Hautelook": "src/"
+    }
+  },
+  "replace": {
+    "hautelook/phpass": "0.3.*"
+  }
+}
